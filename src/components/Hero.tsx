@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl scale-110" />
             <img
               src={otterHero}
-              alt="OtterDr mascot - a cute otter wearing doctor equipment at a computer"
+              alt="OtterDr mascot - a cute otter wearing doctor equipment"
               className="relative w-72 md:w-96 animate-float drop-shadow-2xl"
             />
           </div>
