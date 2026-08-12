@@ -59,12 +59,19 @@ const Installation = () => {
           </div>
         </div>
 
-        {/* API Key notice */}
+        {/* Extension notice */}
         <div className="mt-8 rounded-2xl border border-border bg-accent/50 p-6 text-center">
+          <p className="text-sm text-muted-foreground">
+            <strong className="text-foreground">🧑‍✈️Copilot:</strong> The current version of OtterDr requires the Copilot VS Code extension. You'll be taken to the extension marketplace on your first use. Once you enable Copilot, OtterDr is ready to go!
+          </p>
+        </div>
+
+        {/* API Key notice (Obsolete with Version 0.1.0; placeholder text for future use)*/}
+        {/*<div className="mt-8 rounded-2xl border border-border bg-accent/50 p-6 text-center">
           <p className="text-sm text-muted-foreground">
             <strong className="text-foreground">🔑 API Key:</strong> OtterDr requires an OpenAI API Key. You'll be prompted on first use. Your key is stored securely in VS Code's SecretStorage.
           </p>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
