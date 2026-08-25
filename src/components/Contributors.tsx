@@ -1,8 +1,20 @@
 const contributors = [
   {
-    name: "Sofia Rodas",
+    name: "Delilah Lopez",
     role: "Creator & Maintainer",
-    github: "https://github.com/sofiso99",
+    github: "https://github.com/DLopez43",
+    linkedin: "#",
+  },
+  {
+    name: "Lawrenzo Lue",
+    role: "Maintainer",
+    github: "https://github.com/lawrenzo456/",
+    linkedin: "#",
+  },
+  {
+    name: "Rose Raposo",
+    role: "Maintainer",
+    github: "https://github.com/rrap1",
     linkedin: "#",
   },
   {
@@ -12,23 +24,23 @@ const contributors = [
     linkedin: "#",
   },
   {
-    name: "Stormi Stearns",
-    role: "Creator & Maintainer",
-    github: "https://github.com/stormi25-cell",
-    linkedin: "#",
-  },
-  {
     name: "Katy Wells",
     role: "Creator & Maintainer",
     github: "https://github.com/katygus",
     linkedin: "#",
   },
   {
-    name: "Delilah Lopez",
-    role: "Creator & Maintainer",
-    github: "https://github.com/DLopez43",
+    name: "Sofia Rodas",
+    role: "Creator",
+    github: "https://github.com/sofiso99",
     linkedin: "#",
   },
+  {
+    name: "Stormi Stearns",
+    role: "Creator",
+    github: "https://github.com/stormi25-cell",
+    linkedin: "#",
+  }
 ];
 
 const Contributors = () => {
@@ -42,7 +54,7 @@ const Contributors = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-12 ">
           {contributors.map((c) => (
             <div key={c.name} className="text-center group">
               <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-accent flex items-center justify-center text-2xl group-hover:animate-wiggle">
